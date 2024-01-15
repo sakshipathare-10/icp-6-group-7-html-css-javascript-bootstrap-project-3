@@ -1,4 +1,5 @@
 
+ /* navabr css start*/
  #logo {
     margin-left: 15px;
     color: white;
@@ -17,9 +18,9 @@
   }
 
   #menu:hover {
-    color: white;
+   color: #fff;
   }
-
+/*navabr css end*/
   #image-slide {
     height: 400px;
   }
@@ -28,11 +29,38 @@
     color: rgb(101, 38, 119);
   }
  
+  #other-cards{
+    margin-top: 30px;
+
+  }
+  #other-cards .card{
+    background-color: #a9a9a92b;
+  }
+  #shopnow
+  {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+  margin-left: 10px;
+letter-spacing: 3px;
+color: #fff;
+background-color: rgb(101, 38, 119);
+font-weight: bold;
+border: none;
+cursor: pointer;
+  }
+  #card-images{
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*foter css start*/
   .footer-main {
     padding-top: 90px;
   }
 
-  .address-main>div.col-lg-4 {
+  .address-main.col-lg-4 {
     border-bottom: dotted 1px #999;
   }
 
@@ -133,3 +161,4 @@
   .links:hover {
     color: #ffc000;
   }
+   /*foter css end*/
