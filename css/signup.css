@@ -1,23 +1,26 @@
-#logo {
-    margin-left: 15px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 6px;
-  }
+ /* navabr css start*/
+ #logo {
+  margin-left: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
 
-  #logo span {
-    color: #ffc000;
-  }
+#logo span {
+  color: #ffc000;
+}
 
-  #logo span1 {
-    font-size: 30px;
+#logo span1 {
+  font-size: 30px;
 
-  }
-
-  #menu:hover {
-   color: #fff;
-  }
+}
+#menu{
+color: #fff;
+}
+#menu:hover {
+ color:#ffc000;
+}
   .m{
     margin-left: 100px;}
    
