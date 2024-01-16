@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar navbar-expand-lg" id="navbar" style="background-color: rgb(101, 38, 119);">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html" id="logo">E<span id="span1">lectronic &nbsp;</span><span
+      <a class="navbar-brand fst-italic" href="index.html" id="logo">E<span id="span1">lectronic &nbsp;</span><span
           style="color: #ffffff;">Shop</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -24,13 +24,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-3">
           <li class="nav-item">
-            <a class="nav-link text-warning" href="index.html" id="heading" onclick="home( `Home`)">Home</a>
+            <a class="nav-link " href="index.html" id="menu" onclick="home( `Home`)">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning" id="menu" href="./pages/product.html">Product</a>
+            <a class="nav-link " id="menu" href="./pages/product.html">Product</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-warning" id="menu" href="#" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle " id="menu" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Categories
             </a>
@@ -44,16 +44,16 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning " id="menu" href="./pages/about.html">About</a>
+            <a class="nav-link  " id="menu" href="./pages/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning" id="menu" href="./pages/login.html">Login</a>
+            <a class="nav-link " id="menu" href="./pages/login.html">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning" id="menu" href="./pages/signup.html">Signup</a>
+            <a class="nav-link " id="menu" href="./pages/signup.html">Signup</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning" id="menu" href="./pages/services.html">Service</a>
+            <a class="nav-link " id="menu" href="./pages/services.html">Service</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -64,8 +64,8 @@
     </div>
   </nav>
 
-  <div id="carouselExampleControlsNoTouching" class="carousel slide mt-1 w-75 mx-auto" data-bs-touch="false">
-    <div class="carousel-inner">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide mt-1  w-100 h-100 mx-auto"  data-bs-touch="false">
+    <div class="carousel-inner ">
       <div class="carousel-item active">
         <img src="./images/ele-3.jpg" class="d-block w-100" id="image-slide" alt="...">
       </div>
@@ -114,7 +114,7 @@
     <div class="row">
       <div class="col-md-6 py-3 py-md-0">
         <div class="card">
-          <img src="./images/laptop.jpg" alt="">
+          <img src="./images/laptop.jpg" style="height:365px;" alt="">
           <div class="card-img-overlay">
             <h3 style="color: rgb(101, 38, 119);">Best Laptop</h3>
             <h5><u>latest collection</u>
@@ -128,7 +128,7 @@
       </div>
       <div class="col-md-6 py-3 py-md-0">
         <div class="card">
-          <img src="./images/headphone.png" style="height: 365px;">
+          <img src="./images/earbud.png" style="height:365px;">
           <div class="card-img-overlay">
             <h3 style="color: rgb(101, 38, 119);">Best Bluetooth</h3>
 
@@ -141,14 +141,42 @@
           </div>
         </div>
       </div>
+      <div class="col-md-6 py-3 py-md-0 my-3">
+        <div class="card">
+          <img src="./images/tv.png" style="height:365px;" alt="">
+          <div class="card-img-overlay">
+            <h3 style="color: rgb(101, 38, 119);">Best Smart Tv's</h3>
+            <h5><u>latest collection</u>
+            </h5>
+            <p>Up to 50% off
+            </p>
+            <a href="./pages/product.html"><button type="button" class="btn btn-warning  id=" shopnow">Show
+                more</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-3 py-md-0 my-3">
+        <div class="card">
+          <img src="./images/fridge.png" style="height: 365px;" alt="">
+          <div class="card-img-overlay">
+            <h3 style="color: rgb(101, 38, 119);">Best Refrigerators</h3>
+            <h5><u>latest collection</u>
+            </h5>
+            <p>Up to 70% off
+            </p>
+            <a href="./pages/product.html"><button type="button" class="btn btn-warning  id=" shopnow">Show
+                more</button></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   </div>
   <hr>
-  <h1 class="text-center mt-3">FAQs</h1>
-  <div class="accordion accordion-flush my-2" id="accordionFlushExample">
+  <h1 class="text-center mt-3 my-3 mx-5">FAQs</h1>
+  <div class="accordion accordion-flush mx-5" id="accordionFlushExample">
     <hr>
-    <div class="accordion-item">
+    <div class="accordion-item ">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
           data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -164,12 +192,12 @@
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Q2.When you should I buy online
+          Q2.What  payment methods can I use?
         </button>
       </h2>
       <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body"> Speeding up the process .By ordering you online you willget prices faster .This
-          could save days of your time.Traceability snd Reordering</div>
+        <div class="accordion-body"> You can use all the major credit cards .
+           If you are a customer with established customer relationship with HyTest LTd.</div>
       </div>
     </div>
     <div class="accordion-item">
@@ -188,7 +216,7 @@
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-          Q4.Can I cancel my order
+          Q4.Can I cancel my order?
         </button>
       </h2>
       <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -200,7 +228,7 @@
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-          Q5.How can i change delivery address?
+          Q5.How can I change delivery address?
         </button>
       </h2>
       <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">

@@ -16,9 +16,11 @@
     font-size: 30px;
 
   }
-
+#menu{
+  color: #fff;
+}
   #menu:hover {
-   color: #fff;
+   color:#ffc000;
   }
 /*navabr css end*/
   #image-slide {
