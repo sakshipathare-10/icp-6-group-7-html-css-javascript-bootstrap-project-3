@@ -1,66 +1,28 @@
 
- /* navabr css start*/
- #logo {
-    margin-left: 15px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 6px;
+* {
+    font-family: 'Cabin', sans-serif;
   }
 
-  #logo span {
+  h5 {
     color: #ffc000;
   }
 
-  #logo span1 {
-    font-size: 30px;
-
-  }
-
-  #menu:hover {
-   color: #fff;
-  }
-/*navabr css end*/
-  #image-slide {
-    height: 400px;
-  }
-
-  #Offer {
+  h3 {
     color: rgb(101, 38, 119);
+    font-weight: bold;
   }
- 
-  #other-cards{
-    margin-top: 30px;
 
-  }
-  #other-cards .card{
-    background-color: #a9a9a92b;
-  }
-  #shopnow
-  {
-    width: 130px;
-    height: 30px;
-    margin-top: 10px;
-  margin-left: 10px;
-letter-spacing: 3px;
-color: #fff;
-background-color: rgb(101, 38, 119);
-font-weight: bold;
-border: none;
-cursor: pointer;
-  }
-  #card-images{
-    height: 200px;
+  hr {
+    background-color: rgb(101, 38, 119);
     width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15px auto;
+    height: 5px !important;
   }
-  /*foter css start*/
   .footer-main {
     padding-top: 90px;
   }
 
-  .address-main.col-lg-4 {
+  .address-main>div.col-lg-4 {
     border-bottom: dotted 1px #999;
   }
 
@@ -161,4 +123,34 @@ cursor: pointer;
   .links:hover {
     color: #ffc000;
   }
-   /*foter css end*/
+  /* let's design icon */
+  i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgb(101, 38, 119);
+  }
+  #logo {
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  #logo span {
+    color: #ffc000;
+  }
+
+  #logo span1 {
+    font-size: 30px;
+
+  }
+
+  #menu:hover {
+    color: white;
+  }
+
+  #name {
+    color: rgb(101, 38, 119);
+  }
+  
